@@ -1,0 +1,77 @@
+:root {
+	--card-size: 150px;
+}
+
+#grid {
+	height: calc(var(--card-size) * 3);
+	width: calc(var(--card-size) * 4);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: var(--card-size);
+	height: var(--card-size);
+	/*background-image: url('./images/back.png');*/
+	background-image: url('./images/lgbtq.png');
+	background-repeat: no-repeat;
+	background-size: contain; /* così l'immagine non "straborda", è tipo un auto resize*/
+	cursor: pointer;
+}
+
+/*gerarchia degli attributi:
+1-inline sul file html
+2-id
+3-class
+4-element
+N.B. FUNZIONA A CASCATA, SIA PER ELEMENTI NEL CSS SIA PER I CSS FILES*/
+
+/*posso dare 2 classi allo stesso elemento, quindi sovrascrivo l'immagine*/
+/*
+.alien {
+	
+	background-image: url('./images/alien.png');
+}
+.rocket {
+	
+	background-image: url('./images/rocket.png');
+}
+.duck {
+	
+	background-image: url('./images/duck.png');
+}
+.spaceship {
+	
+	background-image: url('./images/spaceship.png');
+}
+.bug {
+	
+	background-image: url('./images/bug.png');
+}.tiktac {
+	
+	background-image: url('./images/tiktac.png');
+}
+*/
+
+.pans{
+    background-image: url('./images/pans.png');
+}
+
+.bi{
+    background-image: url('./images/bi.png');
+}
+
+.trans{
+    background-image: url('./images/trans.png');
+}
+
+.mlm{
+    background-image: url('./images/mlm1.png');
+}
+
+.lesb{
+    background-image: url('./images/lesb.png');
+}
+.ace{
+    background-image: url('./images/ace.png');
+}
